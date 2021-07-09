@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { notes } = require('../../develop/db/db');
+const { notes } = require('../../db/db');
 
 router.get("/notes", (req, res) => {
   console.log("hit the getrout")
